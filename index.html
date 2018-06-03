@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewprt" content="width=device-width, initial-scale=1.0">
-        <title>JS stopwatch</title>
-        <link rel="stylesheets" type="text/css" href="style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewprt" content="width=device-width, initial-scale=1.0">
+    <title>JS stopwatch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <nav class="controls">
+            <a href="#" class="button" id="start">Start</a>
+            <a href="#" class="button" id="reset">Reset</a>
+            <a href="#" class="button" id="stop">Stop</a>
+        </nav>
+        <div class="stopwatch"></div>
+        <h2>Results
+            <a href="#" id="clear">Clear</a>
+        </h2>
+        <ul class="results"></ul>
+    </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
-        <script src="srcipt-compiled.js"></script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="script-compiled.js"></script>
+</body>
 </html>
