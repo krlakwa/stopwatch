@@ -56,7 +56,7 @@ class Stopwatch {
     
     clear() {
       if (!this.running) {
-        let li = document.createElement('li');
+        const li = document.createElement('li');
         li.innerText = this.format(this.times);
         resultsList.appendChild(li);
   
